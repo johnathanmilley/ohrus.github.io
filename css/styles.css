@@ -1,0 +1,38 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h1 {
+    font-size: 4rem; /* 4 x size of root element */
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+#short-p {
+    border: 5px solid black;
+    background-color: rgb(245, 95, 41);
+    /* clockwise notation: top right bottom left */
+    /* padding: 40px 30px 40px 30px; */
+    /* shorter: top+bottom right+left */
+    padding: 40px 30px;
+    /* padding: 40px; */
+}
+
+#long-p {
+    border: 5px solid black;
+    background-color: rgb(121, 121, 223);
+    padding: 40px 30px 40px 30px;
+    margin: 50px;
+}
